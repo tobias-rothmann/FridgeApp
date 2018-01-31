@@ -15,6 +15,7 @@
 		4BB68AFE2021D27C00C14C37 /* FridgeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68AFD2021D27C00C14C37 /* FridgeAppTests.swift */; };
 		4BB68B092021D27C00C14C37 /* FridgeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68B082021D27C00C14C37 /* FridgeAppUITests.swift */; };
 		4BB68B172021ED5800C14C37 /* AuswahlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68B162021ED5800C14C37 /* AuswahlViewController.swift */; };
+		4BB68B1B2021FC4400C14C37 /* OneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68B1A2021FC4400C14C37 /* OneTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4BB68B082021D27C00C14C37 /* FridgeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeAppUITests.swift; sourceTree = "<group>"; };
 		4BB68B0A2021D27C00C14C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BB68B162021ED5800C14C37 /* AuswahlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuswahlViewController.swift; sourceTree = "<group>"; };
+		4BB68B1A2021FC4400C14C37 /* OneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4BB68AE82021D27C00C14C37 /* AppDelegate.swift */,
 				4BB68AEA2021D27C00C14C37 /* ViewController.swift */,
 				4BB68B162021ED5800C14C37 /* AuswahlViewController.swift */,
+				4BB68B1A2021FC4400C14C37 /* OneTableViewController.swift */,
 				4BB68AEC2021D27C00C14C37 /* Main.storyboard */,
 				4BB68AEF2021D27C00C14C37 /* Assets.xcassets */,
 				4BB68AF12021D27C00C14C37 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BB68AEB2021D27C00C14C37 /* ViewController.swift in Sources */,
+				4BB68B1B2021FC4400C14C37 /* OneTableViewController.swift in Sources */,
 				4BB68B172021ED5800C14C37 /* AuswahlViewController.swift in Sources */,
 				4BB68AE92021D27C00C14C37 /* AppDelegate.swift in Sources */,
 			);

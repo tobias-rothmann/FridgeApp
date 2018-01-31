@@ -8,7 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+    let list = ["Fredde", "Sebastian", "Frank"]
+
+class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return list.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        cell.textLabel?.text = list[indexPath.row]
+        
+        return (cell)
+        
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
