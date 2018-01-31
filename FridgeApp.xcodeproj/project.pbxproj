@@ -14,6 +14,7 @@
 		4BB68AF32021D27C00C14C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB68AF12021D27C00C14C37 /* LaunchScreen.storyboard */; };
 		4BB68AFE2021D27C00C14C37 /* FridgeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68AFD2021D27C00C14C37 /* FridgeAppTests.swift */; };
 		4BB68B092021D27C00C14C37 /* FridgeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68B082021D27C00C14C37 /* FridgeAppUITests.swift */; };
+		4BB68B172021ED5800C14C37 /* AuswahlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68B162021ED5800C14C37 /* AuswahlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4BB68B042021D27C00C14C37 /* FridgeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridgeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB68B082021D27C00C14C37 /* FridgeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeAppUITests.swift; sourceTree = "<group>"; };
 		4BB68B0A2021D27C00C14C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB68B162021ED5800C14C37 /* AuswahlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuswahlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4BB68AE82021D27C00C14C37 /* AppDelegate.swift */,
 				4BB68AEA2021D27C00C14C37 /* ViewController.swift */,
+				4BB68B162021ED5800C14C37 /* AuswahlViewController.swift */,
 				4BB68AEC2021D27C00C14C37 /* Main.storyboard */,
 				4BB68AEF2021D27C00C14C37 /* Assets.xcassets */,
 				4BB68AF12021D27C00C14C37 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BB68AEB2021D27C00C14C37 /* ViewController.swift in Sources */,
+				4BB68B172021ED5800C14C37 /* AuswahlViewController.swift in Sources */,
 				4BB68AE92021D27C00C14C37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
